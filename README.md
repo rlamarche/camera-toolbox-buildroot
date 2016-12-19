@@ -15,7 +15,8 @@ To use it:
 * create a sd card with the image in $BUILDROOT/output/images/sdcard.img
 
 
-The root password is : camera
+The **root** password is : *camera*
+
 On boot, the Raspberry PI automatically :
 
 * Run a SSH Server running on all interfaces and allow root login
