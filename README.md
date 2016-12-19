@@ -19,8 +19,8 @@ On boot, the Raspberry PI automatically :
 * Run a SSH Server running on all interfaces and allow root login
 * configure eth0 from dhcp if connected
 * configure WiFi Access Point :
-** SSID: camera
-** WPA2-PSK Passphrase : cameratoolbox
-** DHCP configuration for clients
-** WiFi IP of the Raspberry PI is always : 172.24.1.1
+  * SSID: camera
+  * WPA2-PSK Passphrase : cameratoolbox
+  * DHCP configuration for clients
+  * WiFi IP of the Raspberry PI is always : 172.24.1.1
 
