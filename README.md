@@ -27,6 +27,7 @@ On boot, the Raspberry PI automatically :
   * WPA2-PSK Passphrase : cameratoolbox
   * DHCP configuration for clients
   * WiFi IP of the Raspberry PI is always : 172.24.1.1
+* start camera-toolbox (liveview is displayed in fullscreen on start)
 
 # Prebuilt image
 
