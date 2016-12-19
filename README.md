@@ -8,7 +8,7 @@ Note : the firmware is non-free and has been downloaded from : https://github.co
 
 To use it: 
 
-* download buildroot-2016.11 and extract it here
+* download buildroot-2016.11 and extract it here (https://buildroot.org/downloads/buildroot-2016.11.tar.bz2)
 * run build.sh
 * create a sd card with the image in $BUILDROOT/output/images/sdcard.img
 
