@@ -28,3 +28,6 @@ On boot, the Raspberry PI automatically :
   * DHCP configuration for clients
   * WiFi IP of the Raspberry PI is always : 172.24.1.1
 
+# Prebuilt image
+
+See https://github.com/rlamarche/camera-toolbox-images
