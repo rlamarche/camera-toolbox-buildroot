@@ -13,6 +13,7 @@ To use it:
 * run build.sh
 * Go outdoor enjoying the beautiful weather, come back a few hours later
 * create a sd card with the image in $BUILDROOT/output/images/sdcard.img
+* resize the root partition on sdcard to have some space (optional)
 
 
 The **root** password is : *camera*
