@@ -1,0 +1,24 @@
+#!/bin/sh
+
+case "$1" in
+	start)
+		printf "Starting camera-toolbox: "
+		start-stop-daemon -S -b -x /usr/local/bin/camera-toolbox
+		[ $? = 0 ] && echo "OK" || echo "FAIL"
+		;;
+	stop)
+		printf "Stopping camera-toolbox: "
+		start-stop-daemon -K -q -x /usr/local/bin/camera-toolbox
+		[ $? = 0 ] && echo "OK" || echo "FAIL"
+		;;
+	restart|reload)
+		$0 stop
+		$0 start
+		;;
+	*)
+		echo "Usage: $0 {start|stop|restart}"
+		exit 1
+esac
+
+exit 0
+
