@@ -1,0 +1,1 @@
+source "$BR2_EXTERNAL_HPIS_PATH/package/libgphoto2/Config.in"

@@ -1,0 +1,5 @@
+config BR2_PACKAGE_LIBGPHOTO2
+	bool "libgphoto2"
+	default n
+	help
+		http://www.gphoto.org/proj/libgphoto2
