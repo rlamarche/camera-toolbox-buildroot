@@ -14,7 +14,7 @@ To use it:
 
 
 The root password is : camera
-On boot, the Raspberry IP automatically :
+On boot, the Raspberry PI automatically :
 
 * Run a SSH Server running on all interfaces and allow root login
 * configure eth0 from dhcp if connected
